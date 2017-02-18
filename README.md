@@ -4,8 +4,8 @@ arduino project aims to contorol a ventilator according to sensor's values
 
 
 
-# define valCaptmV 8
-#define capteurLM35 A0
+ define valCaptmV 8
+define capteurLM35 A0
 void setup() {
   Serial.begin(9600);
   pinMode(ventiloout, OUTPUT);
